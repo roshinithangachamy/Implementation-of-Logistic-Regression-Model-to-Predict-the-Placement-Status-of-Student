@@ -27,7 +27,7 @@ import pandas as pd
 data=pd.read_csv('Placement_Data.csv')
 data.head()
 ```
-
+```
 ![image](https://github.com/user-attachments/assets/edb448ca-c2b6-4a2b-83df-b33f5e2af876)
 
 ```
