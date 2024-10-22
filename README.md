@@ -50,26 +50,51 @@ from sklearn.linear_model import LogisticRegression
 lr=LogisticRegression(solver="liblinear")
 lr.fit(x_train,y_train)
 y_pred=lr.predict(x_test)
-y_pred
+print("Y_pred:",y_pred)
 from sklearn.metrics import accuracy_score
 accuracy=accuracy_score(y_test,y_pred)
-accuracy
+print("accuracy:",accuracy)
 from sklearn.metrics import confusion_matrix
 confusion=confusion_matrix(y_test,y_pred)
-confusion
+print("confusion:",confusion)
 ```
 
 ## Output:
 
-![image](https://github.com/user-attachments/assets/edb448ca-c2b6-4a2b-83df-b33f5e2af876)
+#### Head:
+![Screenshot 2024-10-20 151714](https://github.com/user-attachments/assets/682a260d-2c89-4648-953f-27c7c1b9678b)
 
-![image](https://github.com/user-attachments/assets/34f8eba1-44cf-481b-b6f0-e86b7d671f92)
+#### data1.head:
+![Screenshot 2024-10-20 151759](https://github.com/user-attachments/assets/16fde5b9-44c0-4087-aa4f-2e0b6ff6f2b9)
 
-![image](https://github.com/user-attachments/assets/f753433b-8ea8-4676-acb5-307c04b7a714)
+#### Sum null:
+![Screenshot 2024-10-20 151831](https://github.com/user-attachments/assets/b736a7d8-ba76-4f1d-848c-a393b40d47f1)
 
-![image](https://github.com/user-attachments/assets/6e787434-1a72-4b32-bc5c-6b0c03848dbf)
+#### Sum duplicate:
+![Screenshot 2024-10-20 151852](https://github.com/user-attachments/assets/29492f10-ba1d-426a-807a-57950460c598)
 
-![image](https://github.com/user-attachments/assets/9c27dabf-e140-4aae-a03f-6dfeb4db46b3)
+#### Data1:
+![Screenshot 2024-10-20 151927](https://github.com/user-attachments/assets/bfa9bcac-7a55-4910-b42d-8a350f914732)
+
+#### X:
+![Screenshot 2024-10-20 152000](https://github.com/user-attachments/assets/7542c680-4f3d-416f-8741-5e30e9bded97)
+
+#### Y:
+![Screenshot 2024-10-20 152026](https://github.com/user-attachments/assets/d04582a0-1ca8-45fa-b332-ee8bb1cd685b)
+
+#### LogisticRegression:
+![Screenshot 2024-10-20 152103](https://github.com/user-attachments/assets/6b27ff9a-bd59-4a98-9341-7e2b59edd1b0)
+
+#### Y_Predict:
+![Screenshot 2024-10-20 152130](https://github.com/user-attachments/assets/a1a7dad0-bc6e-43f1-9e2a-3578ffa57cc5)
+
+#### Accuracy:
+![Screenshot 2024-10-20 152156](https://github.com/user-attachments/assets/e5758414-df53-4c5a-aeda-99467bf7831f)
+
+#### Confusion matrix:
+![Screenshot 2024-10-20 152222](https://github.com/user-attachments/assets/c041df48-ed4f-4685-94ed-b275c10e89f7)
+
+
 ## Result:
 Thus the program to implement the the Logistic Regression Model to Predict the Placement Status of Student is written and verified using python programming.
 
